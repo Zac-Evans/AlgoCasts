@@ -9,8 +9,11 @@
 //Solution #1 - Obvious and easy, might be cheating
 
 function reverse(str) {
+  debugger;
   return str.split('').reverse().join('');
 }
+
+reverse('apple');
 
 // Solution #2 - Iterate through array and add each letter to the BEGINNING of an empty string
 
