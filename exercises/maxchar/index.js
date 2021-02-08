@@ -23,6 +23,7 @@ function maxChar(str) {
     }
   }
 
+  console.log(chars);
   return maxChar;
 }
 
